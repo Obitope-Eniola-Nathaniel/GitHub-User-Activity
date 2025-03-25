@@ -1,5 +1,5 @@
 # GitHub User Activity
-Task-Traker is a todo app that help track daily progress and help in productivity.
+Use GitHub API to fetech user activity and display it in the terminal
 
 ## Installation
 Have python install and run in CLI

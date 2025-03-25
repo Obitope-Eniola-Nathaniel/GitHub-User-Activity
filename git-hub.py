@@ -4,7 +4,7 @@ import sys
 def get_posts(name):
     # Define the API endpoint URL
     url = f'https://api.github.com/users/{name}/events'
-
+    
     try:
         # Make a GET request to the API endpoint using requests.get()
         response = requests.get(url)
@@ -23,7 +23,7 @@ def get_posts(name):
 
 def display_git_post(posts):
     if posts:
-        for post in posts[:10]:
+        for post in posts[:5]:
             event_type = post['type']
             repo_name = post['repo']['name']
 
